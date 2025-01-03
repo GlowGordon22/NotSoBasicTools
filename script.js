@@ -30,7 +30,7 @@ googleLoginBtn.addEventListener('click', () => {
       const user = result.user;
       console.log('User signed in:', user.displayName);
       // Redirect after successful login
-      window.location.href = "dashboard.html"; // Replace with your desired URL
+      window.location.href = "https://glowgordon22.github.io/NotSoBasicTools/dashboard.html"; // Replace with your desired URL
     })
     .catch((error) => {
       console.error('Error signing in with Google:', error);
